@@ -30,9 +30,9 @@ public class StarterApplication extends Application {
 
     // Add your initialization code here
     Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
-            .applicationId("8b260cbb11b9d86b82cc8af7074bf5a9b775464c")
-            .clientKey("88be0047eda77b9182bb2bc720481e01e4804957")
-            .server("http://ec2-54-200-137-68.us-west-2.compute.amazonaws.com:80/parse/")
+            .applicationId("25aec6799cef9f1d1d6f325ab0f04c98add1cf23")
+            .clientKey("6c09788b46c382daa50143d0159b4ce73bbe5935")
+            .server("http://ec2-54-244-122-229.us-west-2.compute.amazonaws.com:80/parse/")
             .build()
     );
 
