@@ -2,46 +2,76 @@
 <items version="2" >
 
     <item
-        jar="/Users/robpercival/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/robpercival/AndroidStudioProjects/Instagram/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_6454d756a1331c0dc72a1a0a08357e1a310c2df6.jar" />
-    </item>
-    <item
-        jar="/Users/robpercival/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.0/58a7d54b6a4f28be11f0cecec93097eddf473e6f/parse-android-1.13.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
-        <dex dex="/Users/robpercival/AndroidStudioProjects/Instagram/ParseStarterProject/build/intermediates/pre-dexed/debug/parse-android-1.13.0_dad18202da1f77a2b2d4626b645dd15f9fac1a68.jar" />
-    </item>
-    <item
-        jar="/Users/robpercival/AndroidStudioProjects/Instagram/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.1"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/robpercival/AndroidStudioProjects/Instagram/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.0_6ee44894b4f1c5867982cfeba9a7e45cbb41f303.jar" />
+        <dex dex="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.0_e60cf22365a3f46fb8d5c2b833223130295df69b/classes.dex" />
     </item>
     <item
-        jar="/Users/robpercival/AndroidStudioProjects/Instagram/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/robpercival/AndroidStudioProjects/Instagram/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_48a7beed9358c2986e155224fa63c39f5d207607.jar" />
+        sha1="dace030202ee481e6c34cb5821f5c4f8a976bd43">
+        <dex dex="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_40576b6c9a36693fa2ff6fab934699847c248160/classes.dex" />
     </item>
     <item
-        jar="/Users/robpercival/AndroidStudioProjects/Instagram/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.1"
         sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/robpercival/AndroidStudioProjects/Instagram/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.0_4a045267594f458d6b0d70fafc1b84d30d50ac5c.jar" />
+        <dex dex="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.0_ec22d369d35eb8c6501c10476279c9e06c15ef98/classes.dex" />
     </item>
     <item
-        jar="/Users/robpercival/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/jello/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.0/58a7d54b6a4f28be11f0cecec93097eddf473e6f/parse-android-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/parse-android-1.13.0_33922c1a092764b19cf3b33dce85e97eb8aca71a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b1f7763b5b1075957fc7dbb2b43cdf3a6ed3ad78">
+        <dex dex="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_88773ee798842edb3ca223460831b13a51c7e254/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.0_b25fae47528b3fe74c1e982cbc2a81cf40b79c00/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jello/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.1"
         sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/robpercival/AndroidStudioProjects/Instagram/ParseStarterProject/build/intermediates/pre-dexed/debug/support-annotations-22.2.0_d4370917688e98d570f9c4e6647cdc2b49c9e78b.jar" />
+        <dex dex="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.0_264b79cd590aef01b00d1197ec41323fbf323611/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jello/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_36ed03e1935604eefe9ccd6be003e0991dff2afb/classes.dex" />
     </item>
 
 </items>

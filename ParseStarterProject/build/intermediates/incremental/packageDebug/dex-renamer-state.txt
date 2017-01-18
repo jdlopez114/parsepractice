@@ -1,0 +1,7 @@
+#Tue Jan 17 22:45:28 EST 2017
+base.0=/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_88773ee798842edb3ca223460831b13a51c7e254
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_40576b6c9a36693fa2ff6fab934699847c248160/classes.dex
+base.1=/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_40576b6c9a36693fa2ff6fab934699847c248160
+file.0=/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_88773ee798842edb3ca223460831b13a51c7e254/classes.dex
