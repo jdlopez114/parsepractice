@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import com.parse.FindCallback;
 import com.parse.GetCallback;
 import com.parse.Parse;
 import com.parse.ParseAnalytics;
@@ -19,6 +20,8 @@ import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.SaveCallback;
+
+import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -88,28 +91,51 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
-        ParseQuery<ParseObject> query = ParseQuery.getQuery("Tweet");
+//        ParseQuery<ParseObject> query = ParseQuery.getQuery("Tweet");
+//
+//        query.getInBackground("31JLxCNCMA", new GetCallback<ParseObject>() { // every object has object ID parse
+//            @Override
+//            public void done(ParseObject object, ParseException e) {
+//
+//                if (e == null && object != null){
+//
+//                    Log.i("Tweet", "Successful");
+//
+//                    object.put("tweet", "Bye!");
+//                    object.saveInBackground();
+//
+//                } else {
+//                    Log.i("Tweet", "Failed");
+//                }
+//            }
+//        });
 
-        query.getInBackground("31JLxCNCMA", new GetCallback<ParseObject>() { // every object has object ID parse
+
+        ParseQuery<ParseObject> query = ParseQuery.getQuery("Score"); // add search criteria to query if you want to get score
+
+        query.whereGreaterThan("score", 250);
+        query.setLimit(2); // returns maxmimum of 1 score
+
+        query.findInBackground(new FindCallback<ParseObject>() {
             @Override
-            public void done(ParseObject object, ParseException e) {
+            public void done(List<ParseObject> objects, ParseException e) {  // calls back list
 
-                if (e == null && object != null){
+                if (e == null) {  // find out how many objects have been returned
 
-                    Log.i("Tweet", "Successful");
+                    Log.i("FindInBackground", "Retrived" + objects.size() + "objects");
+                    if (objects.size() > 0) {
 
-                    object.put("tweet", "Bye!");
-                    object.saveInBackground();
-
-                } else {
-                    Log.i("Tweet", "Failed");
+                        for (ParseObject object : objects) { // parse object called object for each item in objects
+                            object.put("score", object.getInt("score") + 50);
+                            object.saveInBackground();
+                        }
+                    }
                 }
             }
         });
 
 
-
-            ParseAnalytics.trackAppOpenedInBackground(getIntent());
+        ParseAnalytics.trackAppOpenedInBackground(getIntent());
 
     }
 }

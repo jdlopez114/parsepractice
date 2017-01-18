@@ -5,26 +5,26 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="663985791116105"
+    timestamp="665357495974385"
     token="8669658034441203992"
-    verifier="IMPLEMENTED_INTERFACES_CHANGE" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="67" />
+        duration="41" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="274" />
     <task
         name="instant-run-transform"
-        duration="23" />
+        duration="4" />
     <task
         name="verifier"
         duration="1" />
 
     <artifact
-        location="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
-        type="DEX" />
+        location="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         timestamp="660909215754651"
@@ -34,11 +34,53 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="663985791116105"
+        timestamp="664687327449348"
         verifier="IMPLEMENTED_INTERFACES_CHANGE" >
         <artifact
             location="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="664746394106939"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/builds/debug/664746394106939/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="664852487920329"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/builds/debug/664852487920329/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="664909685115850"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/builds/debug/664909685115850/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="665273892047588"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/builds/debug/665273892047588/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="665289424566370"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/builds/debug/665289424566370/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="665357495974385"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/jello/Desktop/accesscode/parsepractice/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
